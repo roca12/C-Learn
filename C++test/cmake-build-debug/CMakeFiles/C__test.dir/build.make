@@ -60,33 +60,33 @@ include CMakeFiles\C__test.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\C__test.dir\flags.make
 
-CMakeFiles\C__test.dir\main.cpp.obj: CMakeFiles\C__test.dir\flags.make
-CMakeFiles\C__test.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\diego\Documents\Cursos Realizados\C++\C++test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__test.dir/main.cpp.obj"
+CMakeFiles\C__test.dir\Pairs.cpp.obj: CMakeFiles\C__test.dir\flags.make
+CMakeFiles\C__test.dir\Pairs.cpp.obj: ..\Pairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\diego\Documents\Cursos Realizados\C++\C++test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__test.dir/Pairs.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\C__test.dir\main.cpp.obj /FdCMakeFiles\C__test.dir\ /FS -c "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\main.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\C__test.dir\Pairs.cpp.obj /FdCMakeFiles\C__test.dir\ /FS -c "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\Pairs.cpp"
 <<
 
-CMakeFiles\C__test.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__test.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~4\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\C__test.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\main.cpp"
+CMakeFiles\C__test.dir\Pairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__test.dir/Pairs.cpp.i"
+	C:\PROGRA~2\MICROS~4\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\C__test.dir\Pairs.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\Pairs.cpp"
 <<
 
-CMakeFiles\C__test.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__test.dir/main.cpp.s"
+CMakeFiles\C__test.dir\Pairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__test.dir/Pairs.cpp.s"
 	C:\PROGRA~2\MICROS~4\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\C__test.dir\main.cpp.s /c "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\main.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\C__test.dir\Pairs.cpp.s /c "C:\Users\diego\Documents\Cursos Realizados\C++\C++test\Pairs.cpp"
 <<
 
 # Object files for target C__test
 C__test_OBJECTS = \
-"CMakeFiles\C__test.dir\main.cpp.obj"
+"CMakeFiles\C__test.dir\Pairs.cpp.obj"
 
 # External object files for target C__test
 C__test_EXTERNAL_OBJECTS =
 
-C__test.exe: CMakeFiles\C__test.dir\main.cpp.obj
+C__test.exe: CMakeFiles\C__test.dir\Pairs.cpp.obj
 C__test.exe: CMakeFiles\C__test.dir\build.make
 C__test.exe: CMakeFiles\C__test.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\diego\Documents\Cursos Realizados\C++\C++test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C__test.exe"

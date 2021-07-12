@@ -126,32 +126,32 @@ C__test\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\build
 .PHONY : C__test\fast
 
-main.obj: main.cpp.obj
+Pairs.obj: Pairs.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Pairs.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+Pairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.obj
+.PHONY : Pairs.cpp.obj
 
-main.i: main.cpp.i
+Pairs.i: Pairs.cpp.i
 
-.PHONY : main.i
+.PHONY : Pairs.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\main.cpp.i
-.PHONY : main.cpp.i
+Pairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.i
+.PHONY : Pairs.cpp.i
 
-main.s: main.cpp.s
+Pairs.s: Pairs.cpp.s
 
-.PHONY : main.s
+.PHONY : Pairs.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\main.cpp.s
-.PHONY : main.cpp.s
+Pairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.s
+.PHONY : Pairs.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__test
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Pairs.obj
+	@echo ... Pairs.i
+	@echo ... Pairs.s
 .PHONY : help
 
 
