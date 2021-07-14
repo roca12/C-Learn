@@ -126,32 +126,32 @@ C__test\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\build
 .PHONY : C__test\fast
 
-Pairs.obj: Pairs.cpp.obj
+Vectores.obj: Vectores.cpp.obj
 
-.PHONY : Pairs.obj
+.PHONY : Vectores.obj
 
 # target to build an object file
-Pairs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.obj
-.PHONY : Pairs.cpp.obj
+Vectores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Vectores.cpp.obj
+.PHONY : Vectores.cpp.obj
 
-Pairs.i: Pairs.cpp.i
+Vectores.i: Vectores.cpp.i
 
-.PHONY : Pairs.i
+.PHONY : Vectores.i
 
 # target to preprocess a source file
-Pairs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.i
-.PHONY : Pairs.cpp.i
+Vectores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Vectores.cpp.i
+.PHONY : Vectores.cpp.i
 
-Pairs.s: Pairs.cpp.s
+Vectores.s: Vectores.cpp.s
 
-.PHONY : Pairs.s
+.PHONY : Vectores.s
 
 # target to generate assembly for a file
-Pairs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Pairs.cpp.s
-.PHONY : Pairs.cpp.s
+Vectores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__test.dir\Vectores.cpp.s
+.PHONY : Vectores.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__test
-	@echo ... Pairs.obj
-	@echo ... Pairs.i
-	@echo ... Pairs.s
+	@echo ... Vectores.obj
+	@echo ... Vectores.i
+	@echo ... Vectores.s
 .PHONY : help
 
 

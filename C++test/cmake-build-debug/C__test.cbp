@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/diego/Documents/Cursos Realizados/C++/C++test/Pairs.cpp">
+		<Unit filename="C:/Users/diego/Documents/Cursos Realizados/C++/C++test/Vectores.cpp">
 			<Option target="C__test"/>
 		</Unit>
 		<Unit filename="C:/Users/diego/Documents/Cursos Realizados/C++/C++test/CMakeLists.txt">
